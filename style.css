@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html
+{
+    font-family: 62.5%;
+}
+
+body
+{
+    height: 100vh;
+    background-image:linear-gradient(to right, #81ecec 0%,
+                                               #74b9ff 30%,
+                                               #0984e3 60%);
+}
+
+.esquerda_container
+{
+    width: 370px;
+    margin: 30px auto;
+
+
+}
+
+form
+{
+    padding:20px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.form_title
+{
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #0984e3;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    padding: 15px 0;
+}
+
+
+label, input
+{
+    width: 100%;
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: none;
+    font-size: 1rem;
+}
+
+label
+{
+    text-transform: capitalize;
+}
+
+input[type="submit"]
+{
+    width: 80%;
+    height: 40px;
+    margin: 25px auto 0;
+
+
+    background-color: #0984e3;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3),
+                0 3px 6px rgba(0, 0, 0, 0.3);
+
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+input[type="submit"]:active
+{
+    transform: scale(98%);
+}
+
+
+.esquerda
+{
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+
+.direita
+{
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+
+table
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 90%;
+    margin: 30px auto;
+    
+}
+
+.table_title
+{
+    background-color: #192a56;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+tr
+{
+    line-height: 30px;
+
+}
+
+td
+{
+    padding: 0 5px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: end;
+}
+
+a
+{
+    background-color: #192a56;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+.btn:active
+{
+    transform: scale(98%);
+}
