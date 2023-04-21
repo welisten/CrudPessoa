@@ -8,11 +8,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html
-{
-    font-family: 62.5%;
-}
-
 body
 {
     height: 100vh;
@@ -25,8 +20,6 @@ body
 {
     width: 370px;
     margin: 30px auto;
-
-
 }
 
 form
@@ -63,7 +56,7 @@ label
     text-transform: capitalize;
 }
 
-input[type="submit"]
+input[type=submit]
 {
     width: 80%;
     height: 40px;
@@ -83,7 +76,7 @@ input[type="submit"]
 
 }
 
-input[type="submit"]:active
+input[type=submit]:active
 {
     transform: scale(98%);
 }
@@ -91,6 +84,7 @@ input[type="submit"]:active
 
 .esquerda
 {
+    margin-top: 75px;
     width: 35%;
     height: 500px;
     float: left;
@@ -98,8 +92,9 @@ input[type="submit"]:active
 
 .direita
 {
+    margin-top: 75px;
     width: 65%;
-    height: 500px;
+    height: 30px;
     float: left;
 }
 
@@ -151,4 +146,30 @@ a
 .btn:active
 {
     transform: scale(98%);
+}
+
+.aviso
+{
+    position: absolute;
+    top: 500px;
+    width: calc(100vw * 0.3);
+    height: 50px;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+img
+{
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+h4
+{
+    font-size: 1.2rem;
+    float: left;
+    line-height: 50px;
+    padding: 0 10px;
 }
